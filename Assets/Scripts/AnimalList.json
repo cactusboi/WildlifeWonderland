@@ -1,0 +1,15 @@
+[
+  {
+    "id": 0,
+    "Name": "Mochi",
+    "Species": "Axolotl",
+    "Description": "Axolotls are really cute salamanders! "
+  },
+
+  {
+    "id":  1,
+    "Name": "Arnie",
+    "Species": "Wild Water Buffalo",
+    "Description": "Buffalo are extremely protective of their young and females will form a protective line in front of the calves when threatened."
+  }
+]
