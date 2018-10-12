@@ -10,16 +10,16 @@ EditorBuildSettings:
     guid: eb15bfc1bf2c02c43b79ecc04b3347b1
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
-    guid: b2188170f50ad314da131c3f448a0427
+    guid: cadd2c753de43934298c181b9a99a613
   - enabled: 1
     path: Assets/Scenes/Animals.unity
-    guid: 2e1ca3aa8d0f91b45866dcab83e8c023
-  - enabled: 1
-    path: Assets/Scenes/Settings.unity
-    guid: 5ede7d099892076458535a0e634d35d6
+    guid: 115cc9492d2e35f45a4d03257aac7653
   - enabled: 1
     path: Assets/Scenes/Items.unity
-    guid: c4adc39609ebdc64e82f1ea66e916e5f
+    guid: 4e1d4a81b6ca58b4085be58d1a1a79cc
   - enabled: 1
     path: Assets/Scenes/Shop.unity
-    guid: ecbddb574b1413d4c99efeb877ae9088
+    guid: ea51eb418fd4c2c4e8ac8dda90870992
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: 48423b1990bffca4ca779b737c6bb0f8

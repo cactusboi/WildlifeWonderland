@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour {
         PlayerPrefs.GetInt("Money", Money);
         PlayerPrefs.Save();
         UpdateUI();
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject);
 
 	}
 

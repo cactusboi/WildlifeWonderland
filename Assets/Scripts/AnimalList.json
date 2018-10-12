@@ -1,15 +1,99 @@
 [
+  /*{
+    "id": 0,
+    "Name": "",
+    "Species": "",
+    "Description": ""
+  },*/
   {
     "id": 0,
-    "Name": "Mochi",
-    "Species": "Axolotl",
-    "Description": "Axolotls are really cute salamanders! "
+    "Name": "bee name",
+    "Species": "honey bee",
+    "Description": "honey bee description"
   },
 
   {
-    "id":  1,
+    "id": 1,
+    "Name": "sea turtle name",
+    "Species": "sea turtle",
+    "Description": "sea turtle description"
+  },
+  {
+    "id": 2,
+    "Name": "sea otter name",
+    "Species": "sea otter",
+    "Description": "sea otter description"
+  },
+  {
+    "id": 3,
+    "Name": "gorilla name",
+    "Species": "gorilla",
+    "Description": "gorilla description"
+  },
+  {
+    "id": 4,
+    "Name": "orangutan name",
+    "Species": "orangutan",
+    "Description": "orangutan description"
+  },
+  {
+    "id": 5,
+    "Name": "pangolin name",
+    "Species": "pangolin",
+    "Description": "pangolin description"
+  },
+  {
+    "id": 6,
+    "Name": "tortoise name",
+    "Species": "tortoise",
+    "Description": "tortoise description"
+  },
+  {
+    "id": 7,
+    "Name": "asian elephant name",
+    "Species": "asian elephant",
+    "Description": "asian elephant description"
+  },
+  {
+    "id": 8,
+    "Name": "whooping crane name",
+    "Species": "whooping crane",
+    "Description": "whooping crane description"
+  },
+  {
+    "id": 9,
     "Name": "Arnie",
-    "Species": "Wild Water Buffalo",
-    "Description": "Buffalo are extremely protective of their young and females will form a protective line in front of the calves when threatened."
+    "Species": "water buffalo",
+    "Description": "water buffalo description"
+  },
+  {
+    "id": 10,
+    "Name": "armadillo name",
+    "Species": "armadillo",
+    "Description": "armadillo description"
+  },
+  {
+    "id": 11,
+    "Name": "tiger name",
+    "Species": "tiger",
+    "Description": "tiger description"
+  },
+  {
+    "id": 12,
+    "Name": "giant panda name",
+    "Species": "giant panda",
+    "Description": "giant panda description"
+  },
+  {
+    "id": 13,
+    "Name": "Mochi",
+    "Species": "Axolotl",
+    "Description": "axolotl description"
+  },
+  {
+    "id": 14,
+    "Name": "blue whale name",
+    "Species": "blue whale",
+    "Description": "blue whale description"
   }
 ]
