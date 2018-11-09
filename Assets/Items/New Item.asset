@@ -9,9 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e91915b2fdea09f46b89c31dedf5b730, type: 3}
-  m_Name: FishBones
+  m_Name: New Item
   m_EditorClassIdentifier: 
-  stringItemName: Fish Bone
-  Icon: {fileID: 21300000, guid: 3253676cc471ca04a807d8704761b9c3, type: 3}
-  ItemDescription: You found some fish bones!
-  ItemPrice: 5
+  stringItemName: 
+  Icon: {fileID: 0}
+  ItemDescription: 
+  ItemPrice: 0

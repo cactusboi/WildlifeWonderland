@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 222752860551614672}
   - component: {fileID: 114716413832194070}
   m_Layer: 5
-  m_Name: Price
+  m_Name: ItemPrice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 222933825012367888}
   - component: {fileID: 114365557826922742}
   - component: {fileID: 114924784525911992}
-  - component: {fileID: 114871521620715442}
+  - component: {fileID: 114668925553975728}
   m_Layer: 5
   m_Name: ShopSlot
   m_TagString: Untagged
@@ -157,7 +157,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: name
+  m_Text: Fish Bone
 --- !u!114 &114417993869769670
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -217,7 +217,23 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: desc
+  m_Text: You found some fish bones!
+--- !u!114 &114668925553975728
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1565079225208302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c0053ba649660e4bbd2de2542770706, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 114417993869769670}
+  ItemName: {fileID: 114389614319660064}
+  ItemDescription: {fileID: 114600673818625094}
+  ItemPriceString: {fileID: 114716413832194070}
+  _item: {fileID: 11400000, guid: 36723c0c1d57c73408f67e17408aeca1, type: 2}
 --- !u!114 &114716413832194070
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -250,22 +266,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: $12
---- !u!114 &114871521620715442
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1565079225208302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df2d3d175db2a5940b7b59b4f0a54f55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Icon: {fileID: 114417993869769670}
-  ItemName: {fileID: 114389614319660064}
-  ItemDescription: {fileID: 114600673818625094}
-  _item: {fileID: 11400000, guid: 36723c0c1d57c73408f67e17408aeca1, type: 2}
+  m_Text: 0
 --- !u!114 &114924784525911992
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -304,18 +305,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114365557826922742}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!222 &222016307588214020
