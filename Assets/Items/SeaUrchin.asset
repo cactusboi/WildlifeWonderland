@@ -9,9 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e91915b2fdea09f46b89c31dedf5b730, type: 3}
-  m_Name: MossBalls
+  m_Name: SeaUrchin
   m_EditorClassIdentifier: 
-  stringItemName: Moss Balls
-  Icon: {fileID: 21300000, guid: d320604393fd40143875ce1b53bea5d1, type: 3}
-  ItemDescription: Balls of moss.
-  ItemPrice: 400
+  stringItemName: Sea Urchin
+  Icon: {fileID: 21300000, guid: d0b580ec18269934eaf6f8194d55cd89, type: 3}
+  ItemDescription: It looks really spiky!
+  ItemPrice: 20
