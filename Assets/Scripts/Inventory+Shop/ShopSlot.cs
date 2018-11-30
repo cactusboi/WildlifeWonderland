@@ -3,13 +3,12 @@ using UnityEngine.UI;
 
 public class ShopSlot : MonoBehaviour
 {
-
-
-
     public Image Icon;
     public Text ItemName;
     public Text ItemDescription;
     public Text ItemPriceString;
+
+    private int Money;
 
 
     public Item _item;
@@ -47,7 +46,12 @@ public class ShopSlot : MonoBehaviour
             Icon = GetComponent<Image>();
     }
 
-
+    /*public void PurchaseItem()
+    {
+        PlayerPrefs.GetInt("Money", Money);
+        if (Money >= Item.ItemPrice)
+            Debug.Log("Item Purchased");
+    }*/
 
     Item AnItem;
 

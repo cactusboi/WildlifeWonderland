@@ -28,10 +28,11 @@ public class Shop : MonoBehaviour
     public OnItemChanged onItemChangedCallback;
 
 
-
     public List<Item> Items = new List<Item>();
     public Transform itemsParent;
     public ShopSlot[] itemSlots;
+
+    //private int Money;
 
 
     public void OnValidate()
@@ -54,9 +55,14 @@ public class Shop : MonoBehaviour
         {
             itemSlots[i].Item = null;
         }
-
-
     }
+
+    /*public void PurchaseItem()
+    {
+        PlayerPrefs.GetInt("Money", Money);
+        if (Money >= Item.ItemPrice)
+        Debug.Log("Item Purchased");
+    }*/
     public void Add(Item AnItem)
     {
         Items.Add(AnItem);
