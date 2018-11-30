@@ -321,6 +321,7 @@ RectTransform:
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114668925553975728, guid: b035ef24603224d4c8092a03f772b415,
     type: 2}
+  m_PrefabInternal: {fileID: 1117650156}
   m_Script: {fileID: 11500000, guid: 9c0053ba649660e4bbd2de2542770706, type: 3}
 --- !u!224 &277788224 stripped
 RectTransform:

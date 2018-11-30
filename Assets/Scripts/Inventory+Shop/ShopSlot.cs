@@ -9,7 +9,6 @@ public class ShopSlot : MonoBehaviour
     public Image Icon;
     public Text ItemName;
     public Text ItemDescription;
-    public static int ItemPrice;
     public Text ItemPriceString;
 
 
@@ -37,7 +36,7 @@ public class ShopSlot : MonoBehaviour
                 ItemPriceString.enabled = true;
                 ItemName.text = Item.stringItemName;
                 ItemDescription.text = Item.ItemDescription;
-                ItemPriceString.text = ItemPrice.ToString();
+                ItemPriceString.text = Item.ItemPrice.ToString();
             }
         }
 
