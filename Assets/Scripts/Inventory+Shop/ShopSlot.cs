@@ -7,8 +7,8 @@ public class ShopSlot : MonoBehaviour
     public Text ItemName;
     public Text ItemDescription;
     public Text ItemPriceString;
-
-    private int Money;
+    public GameManager GameManager;
+    
 
 
     public Item _item;
@@ -55,6 +55,24 @@ public class ShopSlot : MonoBehaviour
 
     Item AnItem;
 
+    //purchase item
+    public void OnClick()
+    {
+        //PlayerPrefs.GetInt("Money", MoneyShop);
+        if (GameManager.Money >= Item.ItemPrice)
+        {
+            Debug.Log("Item Purchased (" + GameManager.Money + ").");
+            GameManager.Money -= Item.ItemPrice;
+            //update ui and save currency
+            GameManager.MoneyText.text = "$" + GameManager.Money.ToString();
+            PlayerPrefs.SetInt("Money", GameManager.Money);
+            PlayerPrefs.Save();
+        }
+        else
+        {
+            Debug.Log("Not enough money (" + GameManager.Money + ").");
+        }
+    }
     public void AddItem(Item NewItem)
     {
         AnItem = NewItem;
