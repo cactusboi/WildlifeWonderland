@@ -7,6 +7,7 @@ public class ShopSlot : MonoBehaviour
     public Text ItemName;
     public Text ItemDescription;
     public Text ItemPriceString;
+    //calling game manager so you can get currency
     public GameManager GameManager;
     
 
