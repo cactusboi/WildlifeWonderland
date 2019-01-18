@@ -47,13 +47,6 @@ public class ShopSlot : MonoBehaviour
             Icon = GetComponent<Image>();
     }
 
-    /*public void PurchaseItem()
-    {
-        PlayerPrefs.GetInt("Money", Money);
-        if (Money >= Item.ItemPrice)
-            Debug.Log("Item Purchased");
-    }*/
-
     Item AnItem;
 
     //purchase item
@@ -62,12 +55,20 @@ public class ShopSlot : MonoBehaviour
         //PlayerPrefs.GetInt("Money", MoneyShop);
         if (GameManager.Money >= Item.ItemPrice)
         {
-            Debug.Log("Item Purchased (" + GameManager.Money + ").");
+            Debug.Log(Item.name + " purchased. (" + GameManager.Money + ").");
             GameManager.Money -= Item.ItemPrice;
             //update ui and save currency
             GameManager.MoneyText.text = "$" + GameManager.Money.ToString();
             PlayerPrefs.SetInt("Money", GameManager.Money);
             PlayerPrefs.Save();
+
+            if(Inventory.instance != null)
+            {
+                Inventory.instance.Add(Item);
+            }
+            else
+            Debug.Log("item is invalid");
+
         }
         else
         {
@@ -85,7 +86,7 @@ public class ShopSlot : MonoBehaviour
         ItemPriceString.enabled = true;
 
     }
-
+/*
     public void ClearSlot()
     {
         AnItem = null;
@@ -95,6 +96,6 @@ public class ShopSlot : MonoBehaviour
         ItemName.enabled = false;
         ItemDescription.enabled = false;
         ItemPriceString.enabled = false;
-    }
+    }*/
 
 }

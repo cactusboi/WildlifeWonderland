@@ -29,11 +29,11 @@ public class ShopUI : MonoBehaviour
         {
             if (i < shop.Items.Count)
             {
-                slots[i].AddItem(shop.Items[i]);
+                Debug.Log("adding item to shop");//slots[i].AddItem(shop.Items[i]);
             }
             else
             {
-                slots[i].ClearSlot();
+                Debug.Log("clearing slot");//slots[i].ClearSlot();
             }
 
         }

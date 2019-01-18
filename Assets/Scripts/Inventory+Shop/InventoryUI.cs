@@ -1,11 +1,15 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class InventoryUI : MonoBehaviour
 {
-
+    public List<Item> Items = new List<Item>();
     public Transform ItemsParent;
+    public InventorySlot[] itemSlots;
 
     Inventory inventory;
+    
 
     InventorySlot[] slots;
 
@@ -33,7 +37,7 @@ public class InventoryUI : MonoBehaviour
             }
             else
             {
-                slots[i].ClearSlot();
+                Debug.Log("clearing inventory slots?????");//slots[i].ClearSlot();
             }
 
         }

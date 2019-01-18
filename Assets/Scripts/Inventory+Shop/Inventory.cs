@@ -29,10 +29,10 @@ public class Inventory : MonoBehaviour {
 
 
     public List<Item> Items = new List<Item>();
-    public Transform itemsParent;
-    public InventorySlot[] itemSlots;
+   // public Transform itemsParent;
+   // public InventorySlot[] itemSlots;
 
-
+/*
     public void OnValidate()
     {
         if (itemsParent != null)
@@ -53,9 +53,8 @@ public class Inventory : MonoBehaviour {
         {
             itemSlots[i].Item = null;
         }
-
-
-    }
+        
+    }*/
     public void Add (Item AnItem)
     {
         Items.Add(AnItem);
