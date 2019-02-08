@@ -1463,7 +1463,6 @@ GameObject:
   - component: {fileID: 900583512}
   - component: {fileID: 900583511}
   - component: {fileID: 900583513}
-  - component: {fileID: 900583514}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1508,21 +1507,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Money: 200
   MoneyText: {fileID: 143625278}
---- !u!114 &900583514
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 900583510}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e7055114f0804e4a926aa34057427b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Items:
-  - {fileID: 0}
-  itemsParent: {fileID: 0}
-  itemSlots: []
 --- !u!1 &1104229813
 GameObject:
   m_ObjectHideFlags: 0

@@ -62,9 +62,9 @@ public class ShopSlot : MonoBehaviour
             PlayerPrefs.SetInt("Money", GameManager.Money);
             PlayerPrefs.Save();
 
-            if(Inventory.instance != null)
+            if(Inventory.Instance != null)
             {
-                Inventory.instance.Add(Item);
+                Inventory.Instance.InsertItem(Item);
             }
             else
             Debug.Log("item is invalid");

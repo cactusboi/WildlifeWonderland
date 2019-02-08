@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
 public class AnimalUI : MonoBehaviour
 {
     public List<Item> Items = new List<Item>();
@@ -43,4 +43,4 @@ public class AnimalUI : MonoBehaviour
         }
         //Debug.Log("UPDATING UI");
     }
-}
+}*/

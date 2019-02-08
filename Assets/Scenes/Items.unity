@@ -1065,8 +1065,6 @@ GameObject:
   - component: {fileID: 628175126}
   - component: {fileID: 628175128}
   - component: {fileID: 628175127}
-  - component: {fileID: 628175129}
-  - component: {fileID: 628175130}
   m_Layer: 5
   m_Name: Inventory
   m_TagString: Untagged
@@ -1127,33 +1125,6 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 628175125}
   m_CullTransparentMesh: 0
---- !u!114 &628175129
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 628175125}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e7055114f0804e4a926aa34057427b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Items:
-  - {fileID: 11400000, guid: 4b39086b5d725414b896983f4158a4c0, type: 2}
---- !u!114 &628175130
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 628175125}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86be2d6793757ce4da6712e11f8931b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Items: []
-  ItemsParent: {fileID: 579142268}
-  itemSlots: []
 --- !u!224 &718122815 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
@@ -3192,9 +3163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86be2d6793757ce4da6712e11f8931b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Items: []
-  ItemsParent: {fileID: 579142268}
-  itemSlots: []
+  inventorySlots: []
 --- !u!114 &1457638689
 MonoBehaviour:
   m_ObjectHideFlags: 0
