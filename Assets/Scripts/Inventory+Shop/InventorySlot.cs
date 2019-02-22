@@ -7,7 +7,7 @@ public class InventorySlot : MonoBehaviour
     public int index = 0;
 
     public Item itemInstance = null;
-    public GameObject prefabInstance = null;
+    //public GameObject prefabInstance = null;
 
     public Image Icon;
     public Text ItemName;

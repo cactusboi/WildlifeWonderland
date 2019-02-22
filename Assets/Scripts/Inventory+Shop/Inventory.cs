@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-[CreateAssetMenu(menuName = "Inventory", fileName = "Inventory.asset")]
+[CreateAssetMenu(menuName = "Items/Inventory", fileName = "Inventory.asset")]
 [System.Serializable]
 
 public class Inventory : ScriptableObject
@@ -58,8 +58,9 @@ public class Inventory : ScriptableObject
     public bool SlotEmpty(int index)
     {
         if (inventory[index] == null || inventory[index].item == null)
+        {
             return true;
-
+        }
         return false;
     }
 
@@ -73,7 +74,18 @@ public class Inventory : ScriptableObject
         item = inventory[index];
         return true;
     }
+    public bool RemoveItem(int index)
+    {
+        if (SlotEmpty(index))
+        {
+            // Nothing existed at the specified slot.
+            return false;
+        }
 
+        inventory[index] = null;
+
+        return true;
+    }
     //insert item and return index where it was inserted
     public int InsertItem(Item item)
     {
@@ -86,6 +98,7 @@ public class Inventory : ScriptableObject
             }
         }
         //no free slot
+        Debug.Log("no free slot");
         return -1;
     }
 
