@@ -22,6 +22,8 @@ public class InventorySlot : MonoBehaviour
         Icon.enabled = true;
         ItemName.enabled = true;
         ItemDescription.enabled = true;
+        ItemName.text = instance.stringItemName;
+        ItemDescription.text = instance.ItemDescription;
 
     }
 

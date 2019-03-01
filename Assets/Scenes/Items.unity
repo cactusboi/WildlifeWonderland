@@ -113,6 +113,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &6030564 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1812682303}
+  m_Script: {fileID: 11500000, guid: df2d3d175db2a5940b7b59b4f0a54f55, type: 3}
 --- !u!1001 &19479341
 Prefab:
   m_ObjectHideFlags: 0
@@ -210,55 +216,9 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1682731049487876, guid: ca0416ad991f580418bc94a4a404b30d, type: 2}
       propertyPath: m_Name
       value: InventorySlot (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 114866913070731250, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Text
-      value: Just a regular old can...
-      objectReference: {fileID: 0}
-    - target: {fileID: 114692868841634670, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 9795340d6d5b45f46b6af2fccc2e0b3a,
-        type: 3}
-    - target: {fileID: 114099964657881588, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Text
-      value: Can
-      objectReference: {fileID: 0}
-    - target: {fileID: 114866913070731250, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114692868841634670, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114099964657881588, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
         type: 2}
@@ -395,6 +355,12 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &34001463 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
+    type: 2}
+  m_PrefabInternal: {fileID: 899353237}
+  m_Script: {fileID: 11500000, guid: df2d3d175db2a5940b7b59b4f0a54f55, type: 3}
 --- !u!1001 &34833031
 Prefab:
   m_ObjectHideFlags: 0
@@ -492,56 +458,10 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1682731049487876, guid: ca0416ad991f580418bc94a4a404b30d, type: 2}
       propertyPath: m_Name
       value: InventorySlot (12)
       objectReference: {fileID: 0}
-    - target: {fileID: 114099964657881588, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114099964657881588, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Text
-      value: Can
-      objectReference: {fileID: 0}
-    - target: {fileID: 114866913070731250, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114866913070731250, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Text
-      value: Just a regular old can...
-      objectReference: {fileID: 0}
-    - target: {fileID: 114692868841634670, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114692868841634670, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 9795340d6d5b45f46b6af2fccc2e0b3a,
-        type: 3}
     - target: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
         type: 2}
       propertyPath: index
@@ -550,11 +470,23 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca0416ad991f580418bc94a4a404b30d, type: 2}
   m_IsPrefabAsset: 0
+--- !u!114 &101304782 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
+    type: 2}
+  m_PrefabInternal: {fileID: 497132901}
+  m_Script: {fileID: 11500000, guid: df2d3d175db2a5940b7b59b4f0a54f55, type: 3}
 --- !u!224 &118387997 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
     type: 2}
   m_PrefabInternal: {fileID: 466421186}
+--- !u!114 &152584494 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1683779516}
+  m_Script: {fileID: 11500000, guid: df2d3d175db2a5940b7b59b4f0a54f55, type: 3}
 --- !u!224 &194030380 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
@@ -703,6 +635,11 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
+        type: 2}
+      propertyPath: index
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca0416ad991f580418bc94a4a404b30d, type: 2}
@@ -899,55 +836,9 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1682731049487876, guid: ca0416ad991f580418bc94a4a404b30d, type: 2}
       propertyPath: m_Name
       value: InventorySlot (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 114692868841634670, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 9795340d6d5b45f46b6af2fccc2e0b3a,
-        type: 3}
-    - target: {fileID: 114866913070731250, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Text
-      value: Just a regular old can...
-      objectReference: {fileID: 0}
-    - target: {fileID: 114099964657881588, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Text
-      value: Can
-      objectReference: {fileID: 0}
-    - target: {fileID: 114692868841634670, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114099964657881588, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114866913070731250, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
         type: 2}
@@ -957,6 +848,18 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca0416ad991f580418bc94a4a404b30d, type: 2}
   m_IsPrefabAsset: 0
+--- !u!114 &537363634 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1182872093}
+  m_Script: {fileID: 11500000, guid: df2d3d175db2a5940b7b59b4f0a54f55, type: 3}
+--- !u!114 &566370299 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
+    type: 2}
+  m_PrefabInternal: {fileID: 466421186}
+  m_Script: {fileID: 11500000, guid: df2d3d175db2a5940b7b59b4f0a54f55, type: 3}
 --- !u!224 &579069393 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
@@ -1070,6 +973,12 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 579142267}
   m_CullTransparentMesh: 0
+--- !u!114 &621068121 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
+    type: 2}
+  m_PrefabInternal: {fileID: 721596699}
+  m_Script: {fileID: 11500000, guid: df2d3d175db2a5940b7b59b4f0a54f55, type: 3}
 --- !u!1 &628175125
 GameObject:
   m_ObjectHideFlags: 0
@@ -1242,55 +1151,9 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1682731049487876, guid: ca0416ad991f580418bc94a4a404b30d, type: 2}
       propertyPath: m_Name
       value: InventorySlot (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 114099964657881588, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Text
-      value: Can
-      objectReference: {fileID: 0}
-    - target: {fileID: 114866913070731250, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Text
-      value: Just a regular old can...
-      objectReference: {fileID: 0}
-    - target: {fileID: 114692868841634670, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 9795340d6d5b45f46b6af2fccc2e0b3a,
-        type: 3}
-    - target: {fileID: 114099964657881588, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114866913070731250, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114692868841634670, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
         type: 2}
@@ -1397,55 +1260,9 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1682731049487876, guid: ca0416ad991f580418bc94a4a404b30d, type: 2}
       propertyPath: m_Name
       value: InventorySlot (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 114099964657881588, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Text
-      value: Can
-      objectReference: {fileID: 0}
-    - target: {fileID: 114866913070731250, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Text
-      value: Just a regular old can...
-      objectReference: {fileID: 0}
-    - target: {fileID: 114692868841634670, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 9795340d6d5b45f46b6af2fccc2e0b3a,
-        type: 3}
-    - target: {fileID: 114866913070731250, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114099964657881588, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114692868841634670, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
         type: 2}
@@ -1796,55 +1613,9 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1682731049487876, guid: ca0416ad991f580418bc94a4a404b30d, type: 2}
       propertyPath: m_Name
       value: InventorySlot (14)
-      objectReference: {fileID: 0}
-    - target: {fileID: 114692868841634670, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114692868841634670, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 9795340d6d5b45f46b6af2fccc2e0b3a,
-        type: 3}
-    - target: {fileID: 114866913070731250, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114866913070731250, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Text
-      value: Just a regular old can...
-      objectReference: {fileID: 0}
-    - target: {fileID: 114099964657881588, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114099964657881588, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Text
-      value: Can
       objectReference: {fileID: 0}
     - target: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
         type: 2}
@@ -1957,43 +1728,6 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
         type: 2}
-      propertyPath: _item
-      value: 
-      objectReference: {fileID: 11400000, guid: f8ef7923e48abcc42aebd81debea7a8c,
-        type: 2}
-    - target: {fileID: 114692868841634670, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114692868841634670, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 9795340d6d5b45f46b6af2fccc2e0b3a,
-        type: 3}
-    - target: {fileID: 114866913070731250, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114866913070731250, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Text
-      value: Just a regular old can...
-      objectReference: {fileID: 0}
-    - target: {fileID: 114099964657881588, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114099964657881588, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Text
-      value: Can
-      objectReference: {fileID: 0}
-    - target: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
       propertyPath: index
       value: 9
       objectReference: {fileID: 0}
@@ -2005,11 +1739,23 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
     type: 2}
   m_PrefabInternal: {fileID: 1406585026}
+--- !u!114 &989160718 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
+    type: 2}
+  m_PrefabInternal: {fileID: 789006527}
+  m_Script: {fileID: 11500000, guid: df2d3d175db2a5940b7b59b4f0a54f55, type: 3}
 --- !u!224 &1032814869 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
     type: 2}
   m_PrefabInternal: {fileID: 19479341}
+--- !u!114 &1056502965 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1406585026}
+  m_Script: {fileID: 11500000, guid: df2d3d175db2a5940b7b59b4f0a54f55, type: 3}
 --- !u!1 &1104229813
 GameObject:
   m_ObjectHideFlags: 0
@@ -2059,6 +1805,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b90b9da13dc79354083c9856f9e5a181, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1113833712 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
+    type: 2}
+  m_PrefabInternal: {fileID: 732803648}
+  m_Script: {fileID: 11500000, guid: df2d3d175db2a5940b7b59b4f0a54f55, type: 3}
 --- !u!1 &1142042469
 GameObject:
   m_ObjectHideFlags: 0
@@ -2241,55 +1993,9 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1682731049487876, guid: ca0416ad991f580418bc94a4a404b30d, type: 2}
       propertyPath: m_Name
       value: InventorySlot (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 114866913070731250, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114866913070731250, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Text
-      value: Just a regular old can...
-      objectReference: {fileID: 0}
-    - target: {fileID: 114692868841634670, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114692868841634670, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 9795340d6d5b45f46b6af2fccc2e0b3a,
-        type: 3}
-    - target: {fileID: 114099964657881588, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114099964657881588, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Text
-      value: Can
       objectReference: {fileID: 0}
     - target: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
         type: 2}
@@ -2483,6 +2189,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1227140443 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
+    type: 2}
+  m_PrefabInternal: {fileID: 19479341}
+  m_Script: {fileID: 11500000, guid: df2d3d175db2a5940b7b59b4f0a54f55, type: 3}
 --- !u!1001 &1253413838
 Prefab:
   m_ObjectHideFlags: 0
@@ -2580,55 +2292,9 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1682731049487876, guid: ca0416ad991f580418bc94a4a404b30d, type: 2}
       propertyPath: m_Name
       value: InventorySlot (13)
-      objectReference: {fileID: 0}
-    - target: {fileID: 114099964657881588, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114099964657881588, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Text
-      value: Can
-      objectReference: {fileID: 0}
-    - target: {fileID: 114692868841634670, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114692868841634670, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 9795340d6d5b45f46b6af2fccc2e0b3a,
-        type: 3}
-    - target: {fileID: 114866913070731250, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114866913070731250, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Text
-      value: Just a regular old can...
       objectReference: {fileID: 0}
     - target: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
         type: 2}
@@ -2820,55 +2486,9 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1682731049487876, guid: ca0416ad991f580418bc94a4a404b30d, type: 2}
       propertyPath: m_Name
       value: InventorySlot (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 114692868841634670, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 9795340d6d5b45f46b6af2fccc2e0b3a,
-        type: 3}
-    - target: {fileID: 114866913070731250, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Text
-      value: Just a regular old can...
-      objectReference: {fileID: 0}
-    - target: {fileID: 114099964657881588, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Text
-      value: Can
-      objectReference: {fileID: 0}
-    - target: {fileID: 114692868841634670, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114866913070731250, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114099964657881588, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
         type: 2}
@@ -2975,56 +2595,10 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1682731049487876, guid: ca0416ad991f580418bc94a4a404b30d, type: 2}
       propertyPath: m_Name
       value: InventorySlot (10)
       objectReference: {fileID: 0}
-    - target: {fileID: 114099964657881588, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114099964657881588, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Text
-      value: Can
-      objectReference: {fileID: 0}
-    - target: {fileID: 114866913070731250, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114866913070731250, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Text
-      value: Just a regular old can...
-      objectReference: {fileID: 0}
-    - target: {fileID: 114692868841634670, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114692868841634670, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 9795340d6d5b45f46b6af2fccc2e0b3a,
-        type: 3}
     - target: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
         type: 2}
       propertyPath: index
@@ -3130,55 +2704,9 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1682731049487876, guid: ca0416ad991f580418bc94a4a404b30d, type: 2}
       propertyPath: m_Name
       value: InventorySlot (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 114866913070731250, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Text
-      value: Just a regular old can...
-      objectReference: {fileID: 0}
-    - target: {fileID: 114099964657881588, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Text
-      value: Can
-      objectReference: {fileID: 0}
-    - target: {fileID: 114692868841634670, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 9795340d6d5b45f46b6af2fccc2e0b3a,
-        type: 3}
-    - target: {fileID: 114866913070731250, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114099964657881588, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114692868841634670, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
         type: 2}
@@ -3224,21 +2752,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventorySlots:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 566370299}
+  - {fileID: 1113833712}
+  - {fileID: 101304782}
+  - {fileID: 1860843434}
+  - {fileID: 1486705527}
+  - {fileID: 6030564}
+  - {fileID: 1227140443}
+  - {fileID: 152584494}
+  - {fileID: 621068121}
+  - {fileID: 34001463}
+  - {fileID: 1056502965}
+  - {fileID: 537363634}
+  - {fileID: 1941841371}
+  - {fileID: 2050171345}
+  - {fileID: 989160718}
 --- !u!114 &1457638689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3343,6 +2871,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1486705527 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1379903692}
+  m_Script: {fileID: 11500000, guid: df2d3d175db2a5940b7b59b4f0a54f55, type: 3}
 --- !u!224 &1568954011 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
@@ -3567,55 +3101,9 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1682731049487876, guid: ca0416ad991f580418bc94a4a404b30d, type: 2}
       propertyPath: m_Name
       value: InventorySlot (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 114866913070731250, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Text
-      value: Just a regular old can...
-      objectReference: {fileID: 0}
-    - target: {fileID: 114692868841634670, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 9795340d6d5b45f46b6af2fccc2e0b3a,
-        type: 3}
-    - target: {fileID: 114099964657881588, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Text
-      value: Can
-      objectReference: {fileID: 0}
-    - target: {fileID: 114866913070731250, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114692868841634670, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114099964657881588, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
         type: 2}
@@ -3727,55 +3215,9 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1682731049487876, guid: ca0416ad991f580418bc94a4a404b30d, type: 2}
       propertyPath: m_Name
       value: InventorySlot (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 114866913070731250, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Text
-      value: Just a regular old can...
-      objectReference: {fileID: 0}
-    - target: {fileID: 114692868841634670, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 9795340d6d5b45f46b6af2fccc2e0b3a,
-        type: 3}
-    - target: {fileID: 114099964657881588, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Text
-      value: Can
-      objectReference: {fileID: 0}
-    - target: {fileID: 114866913070731250, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114692868841634670, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114099964657881588, guid: ca0416ad991f580418bc94a4a404b30d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
         type: 2}
@@ -3790,8 +3232,26 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
     type: 2}
   m_PrefabInternal: {fileID: 732803648}
+--- !u!114 &1860843434 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1427705016}
+  m_Script: {fileID: 11500000, guid: df2d3d175db2a5940b7b59b4f0a54f55, type: 3}
+--- !u!114 &1941841371 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
+    type: 2}
+  m_PrefabInternal: {fileID: 34833031}
+  m_Script: {fileID: 11500000, guid: df2d3d175db2a5940b7b59b4f0a54f55, type: 3}
 --- !u!224 &1996145157 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 224113679507514226, guid: ca0416ad991f580418bc94a4a404b30d,
     type: 2}
   m_PrefabInternal: {fileID: 497132901}
+--- !u!114 &2050171345 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1253413838}
+  m_Script: {fileID: 11500000, guid: df2d3d175db2a5940b7b59b4f0a54f55, type: 3}
