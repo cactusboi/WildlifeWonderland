@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Name: Inventory
   m_EditorClassIdentifier: 
   inventory:
-  - {fileID: 11400000, guid: 36723c0c1d57c73408f67e17408aeca1, type: 2}
+  - {fileID: 11400000, guid: 31336c4af802d3343ac30cb0f398aec5, type: 2}
   - {fileID: 11400000, guid: 5833ee533535b5c4fac325cd1506e186, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 8f11862a6347f5c4ea5e859e3521e3c7, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}

@@ -624,17 +624,17 @@ Prefab:
     - target: {fileID: 114866913070731250, guid: ca0416ad991f580418bc94a4a404b30d,
         type: 2}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114099964657881588, guid: ca0416ad991f580418bc94a4a404b30d,
         type: 2}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114692868841634670, guid: ca0416ad991f580418bc94a4a404b30d,
         type: 2}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114466966949921666, guid: ca0416ad991f580418bc94a4a404b30d,
         type: 2}
