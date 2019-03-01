@@ -9,11 +9,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e7055114f0804e4a926aa34057427b5, type: 3}
-  m_Name: InventoryTemplate
+  m_Name: Inventory
   m_EditorClassIdentifier: 
   inventory:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 36723c0c1d57c73408f67e17408aeca1, type: 2}
+  - {fileID: 11400000, guid: 5833ee533535b5c4fac325cd1506e186, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}

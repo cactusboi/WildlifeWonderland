@@ -52,13 +52,15 @@ public class ShopSlot : MonoBehaviour
     //purchase item
     public void OnClick()
     {
-        //PlayerPrefs.GetInt("Money", MoneyShop);
+        GameManager = FindObjectOfType<GameManager>();
+        //PlayerPrefs.GetInt("Money", Money);
         if (GameManager.Money >= Item.ItemPrice)
         {
             Debug.Log(Item.name + " purchased.");
             GameManager.Money -= Item.ItemPrice;
             //update ui and save currency
-            GameManager.MoneyText.text = "$" + GameManager.Money.ToString();
+            GameManager.UpdateUI();
+            //GameManager.MoneyText.text = "$" + GameManager.Money.ToString();
             PlayerPrefs.SetInt("Money", GameManager.Money);
             PlayerPrefs.Save();
 

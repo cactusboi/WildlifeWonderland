@@ -37,6 +37,5 @@ public class ShopUI : MonoBehaviour
             }
 
         }
-        //Debug.Log("UPDATING UI");
     }
 }
