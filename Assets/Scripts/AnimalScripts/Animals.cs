@@ -5,10 +5,12 @@
 public class Animals : ScriptableObject
 {
 
+    public Animals animal;
+
     public int ID;
     public string stringAnimalName;
     public Sprite Icon = null;
     public string AnimalSpecies;
     public string AnimalDescription;
-    
+
 }
