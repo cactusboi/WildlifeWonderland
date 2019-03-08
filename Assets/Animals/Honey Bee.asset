@@ -9,10 +9,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d58eed63cb684c4dbf4633d089e7160, type: 3}
-  m_Name: New Animal
+  m_Name: Honey Bee
   m_EditorClassIdentifier: 
+  animal: {fileID: 11400000}
   ID: 0
-  stringAnimalName: 
+  stringAnimalName: Beeeeee
   Icon: {fileID: 0}
-  AnimalSpecies: 
-  AnimalDescription: 
+  AnimalSpecies: Honey Bee
+  AnimalDescription: Honey bees are important pollinators.
